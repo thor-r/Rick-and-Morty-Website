@@ -1,0 +1,103 @@
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 11px;
+  margin-bottom: 15px;
+  font-family: 'Bangers', cursive;
+  text-shadow: black 1px 1px 2px;
+  color: $orange;  
+  font-size: 50px
+}
+
+#charactersubmit {
+  margin-bottom: 5px;
+}
+
+.form_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  
+  input {
+    border: 3px solid #2AD692;
+    border-radius: 5px;
+    
+  }
+}
+
+form{
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 11px;
+}
+
+
+.characters_list{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
+}
+
+.characters_container{
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#character_link{
+  text-decoration: none;
+}
+  a {
+    color: $orange;
+    font-weight: bold;
+    &:hover {
+      color: $green;
+    }
+  }
+
+  .character_card {
+    margin-bottom: 20px;
+    border: 2px solid $green;
+    border-radius: 10px;
+    background-color: #632DE1;
+  
+    img {
+      margin-top: 12px;
+      border-radius: 5px;
+    }
+  }
+
+  .character-name {
+    margin-left: 5px;
+    margin-top: 5px;
+    font-family: 'Bangers', cursive;
+    text-shadow: black 1px 1px 2px;
+  }
+
+  .character-status {
+    margin-left: 5px;
+    font-family: 'Bangers', cursive;
+    text-shadow: black 1px 1px 2px;
+  }
+
+  .spinner-wrapper{
+    text-align: center;
+    .spinner{
+      width: 200px;
+      height: 200px;
+    }
+  }
+
+  .spinner-text-wrapper{
+    text-align: center;
+  }

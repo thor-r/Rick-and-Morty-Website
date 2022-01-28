@@ -1,0 +1,40 @@
+.characterProfile {
+  display: flex;
+  justify-content: center;
+  img {
+    border-radius: 10px;
+    margin-top: 50px;
+    min-height: 600px;
+    // padding-right: 800px;
+    min-width: 400px;
+    border: 15px solid #fafb05;
+  }
+    
+}
+
+.character-info {
+  font-weight: bold;
+  margin-left: 50px;
+  width: 250px;
+  margin-left: 200px;
+  margin-top: 50px;
+  color: rgb(238, 255, 1);
+  font-size: 22px;
+  font-family: 'Bangers', cursive;
+  text-shadow: black 1px 1px 2px;
+}
+
+.nameColor {
+  color: #FF7724;
+}
+
+.mortyclass{
+  border: none;
+  display: block;
+
+}
+
+#morty{ 
+  border: none;
+  
+}

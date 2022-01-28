@@ -1,0 +1,31 @@
+.hero{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .hero-overlay{
+    color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+}
+
+.logo{
+  border-radius: 20px;
+}
+
+
+
+.home-background {
+  background: url('https://i.imgur.com/hBvW0sH.png') center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+  border-radius: 40px;
+}
+
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(233,90,224,1) 0%, rgba(0,255,186,1) 94%);
+}

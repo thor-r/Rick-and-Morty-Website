@@ -1,0 +1,33 @@
+.nav-item{
+  color: white;
+  cursor: pointer;
+}
+
+.nav-style {
+  background-color: #632DE1;
+  // width: 700px;
+  width: 44%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #2AD692;
+  border-radius: 100px;
+  margin-top: 5%;
+  margin-left: 27%;
+  margin-bottom: 35px;
+  
+}
+.home-logo {
+  display: flex;
+  justify-content: flex-start;
+  // margin-right: 100px; 
+  margin-right: 20%;
+}
+
+.discover-button {
+  display: flex;
+  align-items: center;
+  // margin-right: 100px;
+  margin-right: 10%;
+}

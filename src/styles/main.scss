@@ -1,0 +1,9 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import '../../node_modules/bootstrap/scss/variables';
+
+@import './components/variables';
+// @import './common/base';
+@import './components/navbar';
+@import './components/home';
+@import './components/character-index';
+@import './components/character-show';
