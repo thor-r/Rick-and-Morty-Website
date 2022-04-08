@@ -25,7 +25,7 @@
 The premise of our project was to make a character directory where a user could search through our list to find their desired character then display up-to-date information on that character emulating a ‘Top Trumps’ style character card. My partner on this project was [Peter-Bid](https://github.com/PeterBid).
 
 ###  Deployed Version 
-[GA-LDN React Template](https://rick-and-morty-sei61.netlify.app/)
+[Rick and Morty](https://rick-and-morty-sei61.netlify.app/)
 
 ### Code Installation 
     * Clone or download the repo
