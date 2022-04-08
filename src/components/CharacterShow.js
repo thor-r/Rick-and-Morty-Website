@@ -37,12 +37,11 @@ const CharacterShow = () => {
 
   return (
     <>
-      {character, location, episode ?
+      {character && location && episode ?
         <div className="characterProfile">
-        <div><img src={character.image} alt={name} /></div>
+        <div><img src={character.image} alt={character.name} /></div>
         <div className="character-info">Name: <span className='nameColor'>{character.name}</span> <br></br><br></br>  Species: <span className='nameColor'>{character.species}</span> <br></br><br></br>  Gender: <span className='nameColor'>{character.gender}</span> <br></br><br></br>  Status: <span className='nameColor'>{character.status}</span> <br></br> <br></br> Last known location:  <span className='nameColor'>{location.name}</span> <br></br><br></br> Number of Episodes:  <span className='nameColor'>{episode.length}</span> </div>
         {/* <div className = "mortyclass"><img src={mortyImg} alt="" id="morty" /> </div> */}
-
       </div>
       : <p>Error</p>
       }

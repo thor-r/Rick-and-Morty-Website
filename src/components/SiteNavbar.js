@@ -13,27 +13,6 @@ import Gazorp from '../sounds/Gazorp.mp3'
 import ThisIsnt from '../sounds/ThisIsnt.mp3'
 
 
-// const SiteNavbar = () => (
-//   <Navbar expand="sm" bg="dark">
-//     <Container>
-
-//       <Navbar.Brand>
-//         <Link to="/">Home(will put logo here)</Link>
-//       </Navbar.Brand>
-
-//       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-//       <Navbar.Collapse className='justify-content-end'>
-
-//         <Nav.Item>
-//         <Link className='btn btn-orange' to="/character" >Discover the characters</Link>
-//         </Nav.Item>
-
-
-//       </Navbar.Collapse>
-//     </Container>
-//   </Navbar>
-// )
-
 const SiteNavbar = () => {
 
   const [GazorpPlay] = useSound(Gazorp)

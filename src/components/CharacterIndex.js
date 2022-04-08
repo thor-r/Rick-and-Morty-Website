@@ -53,6 +53,7 @@ const CharacterIndex = () => {
               }} ></input>
             </form>
           </div>
+
           <ul className='characters_list'>
             <div className='characters_container'>{characters && characters.filter((character) => {
               if (searchTerm === '') {
@@ -61,15 +62,13 @@ const CharacterIndex = () => {
                 return character 
               }
             }).map(character => {
-              const { name, image, species, status, gender, id } = character
+              const { name, image, status, id } = character
               return (
                 <Link key={id} id="character_link" to={`/character/${character.id}`}>
                   <div className="character_card" >
                     <div className="character-name" >{name}</div>
                     <div className="character-status">Status: {status}</div>
-
-
-                    <div className={character.image}><img src={image} /></div>
+                    <div className={character.image}><img src={image} alt='character'/></div>
                   </div>
 
                 </Link>

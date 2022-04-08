@@ -9,21 +9,22 @@ import CharacterShow from './components/CharacterShow'
 
 
 
+
 function App() {
   return (
-  <div className='site-wrapper'>
-    <BrowserRouter>
-    <SiteNavbar />
+    <div className='site-wrapper'>
+      <BrowserRouter>
+        <SiteNavbar />
 
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/character" element={<CharacterIndex />} />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/character" element={<CharacterIndex />} />
 
-      <Route path="/character/:characterId" element={<CharacterShow />} />
+          <Route path="/character/:characterId" element={<CharacterShow />} />
 
-    </Routes>
-    </BrowserRouter>
-  </div>
+        </Routes>
+      </BrowserRouter>
+    </div>
   )
 }
 
